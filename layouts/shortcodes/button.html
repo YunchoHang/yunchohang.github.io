@@ -1,0 +1,28 @@
+<a href="{{ .Get `url` }}" class="btn" target="{{ .Get `target` | default `_self` }}">
+    {{ .Get `text` | default `Click Here` }}
+</a>
+
+<style>
+    .btn {
+        display: inline-block;
+        padding: 12px 30px;
+        font-size: 14px;
+        color: #f0f5f1;
+        background-color: transparent;
+        border: 2px solid #3a878c;
+        border-radius: 4px;
+        text-align: center;
+        text-decoration: none;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        font-weight: bold;
+    }
+
+    .btn:hover {
+        background-color: #45a049;
+    }
+    .btn:focus {
+        outline: none;
+}
+</style>
+

